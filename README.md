@@ -42,7 +42,8 @@ limitations — is in [MANUAL.md](MANUAL.md).**
 
 ## Status and plans
 
-Version 1.0. Planned: level shuffles, extra AP crates in levels, in-game item text, and
+Version 1.0 Beta. 
+Planned: level shuffles, extra AP crates in levels, in-game item text, and
 CTR: Nitro-Fueled support (in research).
 
 **Found a bug, or something that doesn't work at all? Please open an issue** — see the manual
