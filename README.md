@@ -18,6 +18,15 @@ relics, keys and Crash 3 power-ups are items.
 The tool runs next to the game: it detects your checks, talks to the Archipelago server, and
 writes received items into the running game. No game files are modified.
 
+**PC only, recommended:** the hook DLL in `hook/` fixes the Crash 3 hub boss buttons (a level
+portal could cover a boss you already unlocked). Install it once:
+
+1. Copy `hook/dinput8.dll` into the game folder, next to `CrashBandicootNSaneTrilogy.exe`.
+2. Linux / Proton only — Steam → game → *Properties → Launch options*:
+   `WINEDLLOVERRIDES="dinput8=n,b" %command%`
+
+Details: [hook/README.md](hook/README.md).
+
 - **PC (Steam):** Windows, or Linux through Proton
 - **PS4 version:** through shadPS4 on Linux
 
@@ -41,6 +50,10 @@ the host needs **`crash_nst.apworld`**, included in this release.
 limitations — is in [MANUAL.md](MANUAL.md).**
 
 ## Status and plans
+
+Version 1.0.1 (hotfix): AP generation no longer fails when *Hidden Gems* is turned off in
+Experimental; Crash 3 hub boss buttons fixed (PC, hook DLL); with Coco as an item, the Coco
+swap now stays locked until that game's Coco item arrives. Seeds from 1.0 keep working.
 
 Version 1.0 Beta. 
 Planned: level shuffles, extra AP crates in levels, in-game item text, and
